@@ -1,35 +1,21 @@
-# Padel_Players_Traking
+# Track-Padel-Match
+The purpose of this project is to create an app that can create some real-time statistics in padel matches.
+This project has been started in June 2022, and during this year I will upload the new improvements that I will be doing in my free time.
+From now, we have the Minimap, where we can see the position of each player, and we could create a heatmap  in the future. 
+
+Upcoming improvements:
+
+- Ball tracking. For this, I have two ideas. The first is to use Tracknet, a CNN that is normally used to track the ball in tennis matches. The other option is to use a transformer, which will give better performance but will be more difficult to train and develop.
+
+- Improve human detection. Now we are using Yolov5, but we could create our own person/player detection or use a better model.
+
+Of course there are more things to do, but these are the most important in the short term.
 
 
-This project aims to develop a paddle tracking player using a mini-map and YOLOv5s for object detection. The player can be used for tracking paddle movements in various sports such as table tennis, tennis, and more.
 
-## Introduction:
 
-Paddle tracking is a crucial aspect of analyzing player performance in various sports. This project utilizes computer vision techniques, particularly YOLOv5, to detect and track paddles in real-time video streams. The system includes a mini-map interface for visualizing the paddle movements and analyzing player actions.
 
-## Features:
 
-Real-time paddle detection and tracking using YOLOv5.
-Integration with a mini-map interface for visualizing paddle movements.
-Customizable configuration for different sports and environments.
-Easy-to-use interface for monitoring and analyzing player performance.
 
-## Installation:
 
-1. Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/your_username/paddle-tracking-player.git
-
-2. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-
-## Usage
-To use the paddle tracking player, follow these steps:
-Run the main application
-
-````bash
-python main.py
-
+![padel](https://user-images.githubusercontent.com/63413550/190146335-64873bf3-03df-486e-8a10-f2c0ec5051e6.jpeg)
