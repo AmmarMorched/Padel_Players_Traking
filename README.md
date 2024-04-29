@@ -17,18 +17,18 @@ Easy-to-use interface for monitoring and analyzing player performance.
 
 1. Clone this repository to your local machine:
 
-```bash
+
 git clone https://github.com/your_username/paddle-tracking-player.git
 
 2. Install the required dependencies:
 
-```bash
+
 pip install -r requirements.txt
 
 ## Usage
 To use the paddle tracking player, follow these steps:
 Run the main application
 
-````bash
+
 python main.py
 
