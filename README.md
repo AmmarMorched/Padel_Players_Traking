@@ -18,7 +18,7 @@ Easy-to-use interface for monitoring and analyzing player performance.
 1. Clone this repository to your local machine:
 
 
-git clone https://github.com/your_username/paddle-tracking-player.git
+git clone [https://github.com/your_username/paddle-tracking-player.git](https://github.com/AmmarMorched/Padel_Players_Traking.git)
 
 2. Install the required dependencies:
 
